@@ -10,7 +10,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-require('../../lib/css/base.css');
+require('../../css/base.css');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34,23 +34,13 @@ var SomeComponent = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
-        _react2.default.createElement(
-          'h1',
-          { className: 'some-component__title' },
-          'Hello, ',
-          this.props.name,
-          '!'
-        )
+        { className: 'zesty-animate' },
+        this.props.children
       );
     }
   }]);
 
   return SomeComponent;
 }(_react.Component);
-
-SomeComponent.propTypes = {
-  name: _react.PropTypes.string
-};
 
 exports.default = SomeComponent;

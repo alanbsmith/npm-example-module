@@ -1,1 +1,0 @@
-var Example = require('./lib');

@@ -1,6 +1,6 @@
 {
   "name": "alanbsmith-npm-example-module",
-  "version": "0.2.11",
+  "version": "0.2.15",
   "description": "an example for exporting react components in a npm module",
   "repository": {
     "type": "git",
